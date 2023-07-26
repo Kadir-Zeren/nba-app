@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
+
 const PlayerCard = ({ name, img, statistics }) => {
   const [showImage, setShowImage] = useState(true);
   return (
@@ -11,16 +12,18 @@ const PlayerCard = ({ name, img, statistics }) => {
         role="button"
       >
         {showImage ? (
-          <Card.Img variant="top" src={img} height="350px" />
+          <Card.Img
+            variant="top"
+            src={img}
+            height="350px"
+          />
         ) : (
-          <ul className="m-auto">
+          <ul
+            className="m-auto"
+          >
             {statistics.map((item, i) => (
-              <li
-                className="list-unstyled
-            h5 text-start"
-                key={i}
-              >
-                {""}
+              <li className="list-unstyled h5 text-start" key={i}>
+                {" "}
                 🏀 {item}
               </li>
             ))}

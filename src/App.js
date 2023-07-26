@@ -7,7 +7,6 @@ function App() {
     <Container className="text-center mt-5">
       <Header />
       <ContainerCard />
-      
     </Container>
   );
 }

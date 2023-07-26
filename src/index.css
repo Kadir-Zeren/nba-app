@@ -5,25 +5,27 @@
 }
 
 body {
-  background-color: #f4d467;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color:#f4d467;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .card-container {
   background-image: url("./assets/nba.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   min-height: 400px;
 }
+
 .player-card {
   height: 400px;
   & img {
-    filter: blur(3px);
+    filter:blur(3px);
     transition: transform 0.3s;
   }
   &:hover {
     box-shadow: 3px 3px 20px 5px rgba(0, 0, 0, 0.5);
     & img {
-      transform: scale(0.9);
+      transform:scale(0.9);
       filter: none;
     }
   }
