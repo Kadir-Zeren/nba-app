@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/nba-app/static/css/main.a4a61dd4.css",
+    "main.js": "/nba-app/static/js/main.2e2ea05c.js",
+    "static/media/nba.jpg": "/nba-app/static/media/nba.15f429bce22dc6fcb3e1.jpg",
+    "index.html": "/nba-app/index.html",
+    "main.a4a61dd4.css.map": "/nba-app/static/css/main.a4a61dd4.css.map",
+    "main.2e2ea05c.js.map": "/nba-app/static/js/main.2e2ea05c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4a61dd4.css",
+    "static/js/main.2e2ea05c.js"
+  ]
+}
